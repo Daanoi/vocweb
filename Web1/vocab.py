@@ -18,7 +18,7 @@ with st.container():
 with st.container():
     st.write("----")
     st.header("Send any vocabs you wish to be added!")
-    st.subheader("ex) 'Dan' (vocab) = 'genius' (synonym)")
+    st.write("ex) 'Dan' (vocab) = 'genius' (synonym)")
     st.write('##')
 
     contact_form = """
