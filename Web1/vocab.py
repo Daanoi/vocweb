@@ -27,7 +27,7 @@ with st.container():
 
     contact_form = """
     <form action="https://formsubmit.co/dan.kim.daniel.06@gmail.com" method="POST">
-        <input tupe="hidden" name=_captcha" value="false">
+        <input type="hidden" name="_captcha" value="False">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your email" required>
         <textarea name="message" placeholder="Enter vocab with its synonym here" required></textarea>
