@@ -17,13 +17,13 @@ with st.container():
 
 with st.container():
     st.write("----")
-    st.header("Send any vocabs you wish to be added!")
-    st.header("ex) 'Dan' (vocab) = 'genius' (synonym)")
+    st.subheader("Send any vocabs you wish to be added!")
+    st.subheader("ex) 'Dan' (vocab) = 'genius' (synonym)")
     st.write('##')
 
     contact_form = """
     <form action="https://formsubmit.co/dan.kim.daniel.06@gmail.com" method="POST">
-        <input tupe="hidden" name=_captcha" value="false">
+        <input tupe="hidden" name=_captcha" value="False">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your email" required>
         <textarea name="message" placeholder="Enter vocab with its synonym here" required></textarea>
