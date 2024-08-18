@@ -21,8 +21,8 @@ def local_css(file_name):
 
 with st.container():
     st.write("----")
-    st.header("Send any vocabs you wish to be added!")
-    st.header("ex) 'Dan' (vocab) = 'genius' (synonym)")
+    st.subheader("Send any vocabs you wish to be added!")
+    st.write("ex) 'Dan' (vocab) = 'genius' (synonym)")
     st.write('##')
 
     contact_form = """
